@@ -1,0 +1,8 @@
+﻿@model List<SiteManager.CLIENT.Models.CategoryViewModel>
+
+<div class="max-w-screen-xl mx-auto px-4 pb-4 py-1 flex gap-8 items-center nav-menu-slider">
+	@foreach (var category in Model)
+	{
+		<a class="text-sm font-medium hover:underline w-full min-w-max" asp-route-slug="@category.Slug" asp-action="Products" asp-controller="Category" asp-area="">@category.Name</a>
+	}
+</div>

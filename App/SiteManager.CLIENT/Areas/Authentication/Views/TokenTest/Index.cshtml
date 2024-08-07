@@ -1,0 +1,18 @@
+﻿@{
+	ViewData["Title"] = "Token Test";
+}
+
+<h2>Token Test</h2>
+
+@if (ViewBag.Token != null)
+{
+	<div class="alert alert-info">
+		<strong>Token:</strong> @ViewBag.Token
+	</div>
+}
+else
+{
+	<div class="alert alert-danger">
+		<strong>No token found in session.</strong>
+	</div>
+}

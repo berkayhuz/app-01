@@ -1,0 +1,15 @@
+2024-08-07 00:59:49.000 +03:00 [INF] Starting web host
+2024-08-07 00:59:49.201 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-07 00:59:49.792 +03:00 [INF] Now listening on: https://localhost:7142
+2024-08-07 00:59:49.794 +03:00 [INF] Now listening on: http://localhost:5018
+2024-08-07 00:59:49.797 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-07 00:59:49.799 +03:00 [INF] Hosting environment: Development
+2024-08-07 00:59:49.800 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\Authentication.API
+2024-08-07 01:00:13.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2024-08-07 01:00:14.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 341.594ms
+2024-08-07 01:00:16.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-07 01:00:16.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2024-08-07 01:00:16.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 182.2964ms
+2024-08-07 01:00:16.363 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 265.5508ms
+2024-08-07 01:00:16.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2024-08-07 01:00:17.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 635.0009ms

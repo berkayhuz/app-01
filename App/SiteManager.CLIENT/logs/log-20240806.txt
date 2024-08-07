@@ -1,0 +1,482 @@
+2024-08-06 02:16:53.446 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:16:53.659 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:16:53.661 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:16:53.663 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:16:53.664 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:16:53.665 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:17:01.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:17:01.516 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:17:01.551 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:17:01.562 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:17:01.697 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 127.0367ms.
+2024-08-06 02:17:12.411 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:17:13.868 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:17:13.870 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:17:15.754 +03:00 [INF] Received HTTP response headers after 1879.647ms - 200
+2024-08-06 02:17:15.756 +03:00 [INF] End processing HTTP request after 1890.5775ms - 200
+2024-08-06 02:17:16.307 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:17:16.309 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:17:16.391 +03:00 [INF] Received HTTP response headers after 81.0272ms - 200
+2024-08-06 02:17:16.393 +03:00 [INF] End processing HTTP request after 85.4381ms - 200
+2024-08-06 02:17:16.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js - null null
+2024-08-06 02:17:16.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Style/Css/Style.css?v=cbOOvMOy_l4uGm8DrVM1wfVr8YvhTFRW51zAj7L_aNE - null null
+2024-08-06 02:17:16.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Style/Css/Font.css?v=Bk4RAddBB5S5VSiCZmspeCg58DhUoSpLwyUn8SaR5j0 - null null
+2024-08-06 02:17:16.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Css/Tinyslider.min.css - null null
+2024-08-06 02:17:16.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Css/swiper-bundle.min.css - null null
+2024-08-06 02:17:16.707 +03:00 [INF] The file /Style/Css/Style.css was not modified
+2024-08-06 02:17:16.707 +03:00 [INF] The file /Style/Css/Font.css was not modified
+2024-08-06 02:17:16.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tailwind/Css/Tailwind.min.css - null null
+2024-08-06 02:17:16.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Style/Css/Font.css?v=Bk4RAddBB5S5VSiCZmspeCg58DhUoSpLwyUn8SaR5j0 - 304 null text/css 36.657ms
+2024-08-06 02:17:16.710 +03:00 [INF] The file /Lib/Tinyslider/Style/Css/Tinyslider.min.css was not modified
+2024-08-06 02:17:16.712 +03:00 [INF] The file /Lib/Swiperslide/Style/Css/swiper-bundle.min.css was not modified
+2024-08-06 02:17:16.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Css/flowbite.min.css - null null
+2024-08-06 02:17:16.704 +03:00 [INF] Executed ViewResult - view Index executed in 14992.8125ms.
+2024-08-06 02:17:16.707 +03:00 [INF] The file /Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js was not modified
+2024-08-06 02:17:16.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-ikeada-yeni-ne-var-temmuz-tr.webp - null null
+2024-08-06 02:17:16.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-broggan-koleksiyonu-tr.webp - null null
+2024-08-06 02:17:16.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Style/Css/Style.css?v=cbOOvMOy_l4uGm8DrVM1wfVr8YvhTFRW51zAj7L_aNE - 304 null text/css 32.764ms
+2024-08-06 02:17:16.722 +03:00 [INF] The file /Lib/Tailwind/Css/Tailwind.min.css was not modified
+2024-08-06 02:17:16.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Css/Tinyslider.min.css - 304 null text/css 47.5871ms
+2024-08-06 02:17:16.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Css/swiper-bundle.min.css - 304 null text/css 48.9852ms
+2024-08-06 02:17:16.730 +03:00 [INF] The file /Lib/Flowbite/Style/Css/flowbite.min.css was not modified
+2024-08-06 02:17:16.731 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js - 304 null text/javascript 53.3951ms
+2024-08-06 02:17:16.734 +03:00 [INF] The file /Uploads/Slides/yeni-ikeada-yeni-ne-var-temmuz-tr.webp was not modified
+2024-08-06 02:17:16.736 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 15182.2741ms
+2024-08-06 02:17:16.736 +03:00 [INF] The file /Uploads/Slides/yeni-broggan-koleksiyonu-tr.webp was not modified
+2024-08-06 02:17:16.740 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tailwind/Css/Tailwind.min.css - 304 null text/css 62.0273ms
+2024-08-06 02:17:16.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Css/flowbite.min.css - 304 null text/css 70.2592ms
+2024-08-06 02:17:16.755 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:17:16.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-ikeada-yeni-ne-var-temmuz-tr.webp - 304 null image/webp 43.575ms
+2024-08-06 02:17:16.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-broggan-koleksiyonu-tr.webp - 304 null image/webp 46.5246ms
+2024-08-06 02:17:16.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-nytillverkad-koleksiyonu-tr.webp - null null
+2024-08-06 02:17:16.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 15426.8437ms
+2024-08-06 02:17:16.774 +03:00 [INF] The file /Uploads/Slides/yeni-nytillverkad-koleksiyonu-tr.webp was not modified
+2024-08-06 02:17:16.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-nytillverkad-koleksiyonu-tr.webp - 304 null image/webp 17.9344ms
+2024-08-06 02:17:16.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-yaz-indirimi-tr.webp - null null
+2024-08-06 02:17:16.817 +03:00 [INF] The file /Uploads/Slides/yeni-yaz-indirimi-tr.webp was not modified
+2024-08-06 02:17:16.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js - null null
+2024-08-06 02:17:16.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:17:16.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Style/Script/javascript.js?v=7Oc190PY6TIaMOCoz25TGzYzTbhDVKpiYd7mq5dXHOM - null null
+2024-08-06 02:17:16.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:17:16.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Javascript/Javascript.min.js - null null
+2024-08-06 02:17:16.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-yaz-indirimi-tr.webp - 304 null image/webp 13.8082ms
+2024-08-06 02:17:16.830 +03:00 [INF] The file /Lib/Flowbite/Style/Script/flowbite.min.js was not modified
+2024-08-06 02:17:16.851 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 23.731ms
+2024-08-06 02:17:16.851 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js - 304 null text/javascript 24.8294ms
+2024-08-06 02:17:16.836 +03:00 [INF] The file /Style/Script/javascript.js was not modified
+2024-08-06 02:17:16.843 +03:00 [INF] The file /Lib/Tinyslider/Style/Javascript/Javascript.min.js was not modified
+2024-08-06 02:17:16.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Style/Script/javascript.js?v=7Oc190PY6TIaMOCoz25TGzYzTbhDVKpiYd7mq5dXHOM - 304 null text/javascript 33.6842ms
+2024-08-06 02:17:16.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Javascript/Javascript.min.js - 304 null text/javascript 34.8812ms
+2024-08-06 02:17:16.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.4775ms
+2024-08-06 02:17:16.954 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:17:16.973 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 18.5368ms
+2024-08-06 02:17:16.977 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:17:16.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:17:16.992 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 6.9747ms
+2024-08-06 02:17:16.997 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:17:17.315 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:17:17.318 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:17:17.319 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 4.1083ms
+2024-08-06 02:17:17.322 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 3.5261ms
+2024-08-06 02:17:17.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:17:17.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:17:17.333 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:17:17.336 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:17:17.339 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 9.5035ms
+2024-08-06 02:17:17.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 10.7852ms
+2024-08-06 02:17:17.350 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:17:17.353 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:17:17.371 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/favicon.ico - null null
+2024-08-06 02:17:17.374 +03:00 [INF] The file /favicon.ico was not modified
+2024-08-06 02:17:17.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/favicon.ico - 304 null image/x-icon 4.2409ms
+2024-08-06 02:17:58.741 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:17:58.898 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:17:58.900 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:17:58.903 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:17:58.904 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:17:58.904 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:18:04.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:18:04.965 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:18:05.017 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:18:05.033 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:18:05.101 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 61.314ms.
+2024-08-06 02:18:07.950 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:18:09.441 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:18:09.444 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:18:11.229 +03:00 [INF] Received HTTP response headers after 1781.0969ms - 200
+2024-08-06 02:18:11.232 +03:00 [INF] End processing HTTP request after 1793.0175ms - 200
+2024-08-06 02:18:11.903 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:18:11.905 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:18:11.990 +03:00 [INF] Received HTTP response headers after 83.502ms - 200
+2024-08-06 02:18:11.991 +03:00 [INF] End processing HTTP request after 87.8159ms - 200
+2024-08-06 02:18:12.338 +03:00 [INF] Executed ViewResult - view Index executed in 7218.015ms.
+2024-08-06 02:18:12.344 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 7324.1732ms
+2024-08-06 02:18:12.346 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:18:12.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 7791.4584ms
+2024-08-06 02:18:12.433 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:18:12.433 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:18:12.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 20.9668ms
+2024-08-06 02:18:12.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.7008ms
+2024-08-06 02:18:12.575 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:18:12.599 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 24.4916ms
+2024-08-06 02:18:12.606 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:18:12.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:18:12.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 9.396ms
+2024-08-06 02:18:12.624 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:18:12.627 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:18:12.631 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 6.2949ms
+2024-08-06 02:18:12.637 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:18:12.638 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:18:12.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 5.533ms
+2024-08-06 02:18:12.655 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:18:12.976 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:18:12.980 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 3.8873ms
+2024-08-06 02:18:12.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:18:12.990 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:18:12.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 6.0166ms
+2024-08-06 02:18:12.998 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:26:30.197 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:26:30.411 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:26:30.413 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:26:30.416 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:26:30.418 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:26:30.418 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:26:38.240 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:26:38.397 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:26:38.449 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:26:38.459 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:26:38.503 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 38.2595ms.
+2024-08-06 02:26:41.597 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:26:44.695 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:26:44.699 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:26:47.192 +03:00 [INF] Received HTTP response headers after 2487.475ms - 200
+2024-08-06 02:26:47.201 +03:00 [INF] End processing HTTP request after 2508.859ms - 200
+2024-08-06 02:26:48.113 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:26:48.115 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:26:48.250 +03:00 [INF] Received HTTP response headers after 133.2411ms - 200
+2024-08-06 02:26:48.251 +03:00 [INF] End processing HTTP request after 137.9003ms - 200
+2024-08-06 02:26:48.624 +03:00 [INF] Executed ViewResult - view Index executed in 10105.9503ms.
+2024-08-06 02:26:48.651 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 10199.1856ms
+2024-08-06 02:26:48.653 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:26:48.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 10430.1328ms
+2024-08-06 02:26:48.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:26:48.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:26:48.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 17.7125ms
+2024-08-06 02:26:48.829 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.5031ms
+2024-08-06 02:26:48.868 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:26:48.923 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 54.9122ms
+2024-08-06 02:26:48.960 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:26:48.973 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:26:48.974 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:26:48.987 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:26:48.999 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 23.9996ms
+2024-08-06 02:26:48.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:26:48.989 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 15.9709ms
+2024-08-06 02:26:49.009 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:26:49.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 28.1822ms
+2024-08-06 02:26:49.018 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:26:49.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 21.8157ms
+2024-08-06 02:26:49.023 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:26:49.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 16.5284ms
+2024-08-06 02:26:49.029 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:26:49.035 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:26:49.039 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:30:50.829 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:30:51.068 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:30:51.070 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:30:51.073 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:30:51.075 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:30:51.076 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:30:55.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:30:55.837 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:30:55.888 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:30:55.909 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:30:56.060 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 142.0736ms.
+2024-08-06 02:31:06.082 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:31:07.722 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:31:07.725 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:31:09.876 +03:00 [INF] Received HTTP response headers after 2146.1794ms - 200
+2024-08-06 02:31:09.878 +03:00 [INF] End processing HTTP request after 2159.1091ms - 200
+2024-08-06 02:31:10.697 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:31:10.699 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:31:10.797 +03:00 [INF] Received HTTP response headers after 97.3142ms - 200
+2024-08-06 02:31:10.799 +03:00 [INF] End processing HTTP request after 101.6504ms - 200
+2024-08-06 02:31:11.234 +03:00 [INF] Executed ViewResult - view Index executed in 15157.4649ms.
+2024-08-06 02:31:11.241 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 15350.0685ms
+2024-08-06 02:31:11.244 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:31:11.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 15635.9169ms
+2024-08-06 02:31:11.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:31:11.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:31:11.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 13.2431ms
+2024-08-06 02:31:11.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.5361ms
+2024-08-06 02:31:11.450 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:31:11.473 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:31:11.480 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 30.3729ms
+2024-08-06 02:31:11.489 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:31:11.493 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 19.408ms
+2024-08-06 02:31:11.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:31:11.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:31:11.501 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:31:11.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 11.0654ms
+2024-08-06 02:31:11.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 11.0983ms
+2024-08-06 02:31:11.519 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:31:11.524 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:31:11.867 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:31:11.871 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 3.5889ms
+2024-08-06 02:31:11.876 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:31:11.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:31:11.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 4.7796ms
+2024-08-06 02:31:11.886 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:33:39.916 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:33:40.112 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:33:40.113 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:33:40.117 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:33:40.118 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:33:40.119 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:33:45.306 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:33:45.577 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:33:45.635 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:33:45.654 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:33:45.722 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 61.0828ms.
+2024-08-06 02:33:49.175 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:33:51.038 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:33:51.041 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:33:53.159 +03:00 [INF] Received HTTP response headers after 2113.7284ms - 200
+2024-08-06 02:33:53.162 +03:00 [INF] End processing HTTP request after 2126.9014ms - 200
+2024-08-06 02:33:54.040 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:33:54.042 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:33:54.144 +03:00 [INF] Received HTTP response headers after 101.372ms - 200
+2024-08-06 02:33:54.146 +03:00 [INF] End processing HTTP request after 105.6607ms - 200
+2024-08-06 02:33:54.478 +03:00 [INF] Executed ViewResult - view Index executed in 8737.9804ms.
+2024-08-06 02:33:54.484 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 8844.5375ms
+2024-08-06 02:33:54.486 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:33:54.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 9193.3502ms
+2024-08-06 02:33:54.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:33:54.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:33:54.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 11.0955ms
+2024-08-06 02:33:54.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.3601ms
+2024-08-06 02:33:54.664 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:33:54.688 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 24.4871ms
+2024-08-06 02:33:54.749 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:33:54.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:33:54.783 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 17.4299ms
+2024-08-06 02:33:54.799 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:33:55.155 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:33:55.156 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:33:55.159 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 3.7424ms
+2024-08-06 02:33:55.162 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 5.9369ms
+2024-08-06 02:33:55.166 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:33:55.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:33:55.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:33:55.170 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:33:55.176 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 11.7247ms
+2024-08-06 02:33:55.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 11.7471ms
+2024-08-06 02:33:55.184 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:33:55.187 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:35:21.788 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:35:22.175 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:35:22.218 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:35:22.223 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:35:22.378 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:35:22.379 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:35:27.147 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:35:27.685 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:35:27.817 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:35:27.839 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:35:27.935 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 88.9472ms.
+2024-08-06 02:35:31.486 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:35:33.200 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:35:33.203 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:35:35.385 +03:00 [INF] Received HTTP response headers after 2177.2051ms - 200
+2024-08-06 02:35:35.388 +03:00 [INF] End processing HTTP request after 2191.1003ms - 200
+2024-08-06 02:35:36.108 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:35:36.110 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:35:36.230 +03:00 [INF] Received HTTP response headers after 119.0832ms - 200
+2024-08-06 02:35:36.231 +03:00 [INF] End processing HTTP request after 123.2467ms - 200
+2024-08-06 02:35:36.536 +03:00 [INF] Executed ViewResult - view Index executed in 8575.1367ms.
+2024-08-06 02:35:36.545 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 8721.4194ms
+2024-08-06 02:35:36.547 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:35:36.560 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 9416.2223ms
+2024-08-06 02:35:36.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:35:36.640 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:35:36.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 17.511ms
+2024-08-06 02:35:36.846 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:35:36.855 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 215.2002ms
+2024-08-06 02:35:36.870 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 24.4536ms
+2024-08-06 02:35:36.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:35:36.894 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:35:36.902 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 8.7936ms
+2024-08-06 02:35:36.910 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:35:37.226 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:35:37.231 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:35:37.233 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 6.7121ms
+2024-08-06 02:35:37.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:35:37.236 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 4.8841ms
+2024-08-06 02:35:37.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:35:37.244 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:35:37.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 6.4376ms
+2024-08-06 02:35:37.250 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:35:37.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 13.1173ms
+2024-08-06 02:35:37.263 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:35:37.270 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:37:08.212 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:37:08.516 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:37:08.518 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:37:08.522 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:37:08.530 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:37:08.531 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:37:15.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:37:15.192 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:37:15.243 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:37:15.262 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:37:15.338 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 66.8071ms.
+2024-08-06 02:37:18.774 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:37:20.568 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:37:20.570 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:37:22.525 +03:00 [INF] Received HTTP response headers after 1949.9742ms - 200
+2024-08-06 02:37:22.528 +03:00 [INF] End processing HTTP request after 1962.9772ms - 200
+2024-08-06 02:37:23.422 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:37:23.424 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:37:23.524 +03:00 [INF] Received HTTP response headers after 99.6052ms - 200
+2024-08-06 02:37:23.526 +03:00 [INF] End processing HTTP request after 103.8344ms - 200
+2024-08-06 02:37:23.907 +03:00 [INF] Executed ViewResult - view Index executed in 8487.6505ms.
+2024-08-06 02:37:23.917 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 8669.1886ms
+2024-08-06 02:37:23.920 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:37:23.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 8933.6617ms
+2024-08-06 02:37:23.998 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:37:23.998 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:37:24.014 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 15.0329ms
+2024-08-06 02:37:24.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 231.7766ms
+2024-08-06 02:37:24.359 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:37:24.359 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:37:24.359 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:37:24.396 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 36.4954ms
+2024-08-06 02:37:24.396 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 36.486ms
+2024-08-06 02:37:24.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:37:24.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:37:24.409 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:37:24.408 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 48.5198ms
+2024-08-06 02:37:24.423 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:37:24.426 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:37:24.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 12.7366ms
+2024-08-06 02:37:24.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 18.7888ms
+2024-08-06 02:37:24.474 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:37:24.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 54.7835ms
+2024-08-06 02:37:24.490 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:37:24.500 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:37:24.509 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:39:07.068 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:39:07.500 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:39:07.511 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:39:07.516 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:39:07.518 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:39:07.519 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:39:11.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:39:11.935 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:39:11.997 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:39:12.015 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:39:12.100 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 75.6132ms.
+2024-08-06 02:39:15.332 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:39:17.197 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:39:17.200 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:39:19.713 +03:00 [INF] Received HTTP response headers after 2506.758ms - 200
+2024-08-06 02:39:19.716 +03:00 [INF] End processing HTTP request after 2521.9689ms - 200
+2024-08-06 02:39:20.520 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:39:20.521 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:39:20.641 +03:00 [INF] Received HTTP response headers after 118.5707ms - 200
+2024-08-06 02:39:20.643 +03:00 [INF] End processing HTTP request after 123.6275ms - 200
+2024-08-06 02:39:21.060 +03:00 [INF] Executed ViewResult - view Index executed in 8942.1338ms.
+2024-08-06 02:39:21.071 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 9070.9714ms
+2024-08-06 02:39:21.074 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:39:21.090 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 9510.2872ms
+2024-08-06 02:39:21.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:39:21.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:39:21.214 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 25.5413ms
+2024-08-06 02:39:21.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.1139ms
+2024-08-06 02:39:21.378 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:39:21.378 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:39:21.378 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:39:21.391 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 12.4929ms
+2024-08-06 02:39:21.391 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 12.5039ms
+2024-08-06 02:39:21.391 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 12.3411ms
+2024-08-06 02:39:21.395 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:39:21.400 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:39:21.405 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:39:21.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:39:21.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:39:21.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:39:21.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 18.8469ms
+2024-08-06 02:39:21.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 14.1924ms
+2024-08-06 02:39:21.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 15.4176ms
+2024-08-06 02:39:21.433 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:39:21.436 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:39:21.439 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:44:40.693 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:44:40.967 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:44:40.970 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:44:40.976 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:44:40.978 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:44:40.981 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:44:47.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:44:48.084 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:44:48.191 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:44:48.217 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:44:48.371 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 134.701ms.
+2024-08-06 02:44:52.050 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:44:54.174 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:44:54.177 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:44:54.439 +03:00 [INF] Received HTTP response headers after 257.0607ms - 200
+2024-08-06 02:44:54.447 +03:00 [INF] End processing HTTP request after 275.7694ms - 200
+2024-08-06 02:44:55.147 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:44:55.149 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-06 02:44:55.215 +03:00 [INF] Received HTTP response headers after 64.6706ms - 200
+2024-08-06 02:44:55.217 +03:00 [INF] End processing HTTP request after 69.6913ms - 200
+2024-08-06 02:44:55.452 +03:00 [INF] Executed ViewResult - view Index executed in 7057.6237ms.
+2024-08-06 02:44:55.459 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 7261.3302ms
+2024-08-06 02:44:55.461 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:44:55.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 7954.8912ms
+2024-08-06 02:44:55.547 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 02:44:55.549 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-06 02:44:55.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 50.3532ms
+2024-08-06 02:44:55.781 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:44:55.782 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:44:55.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 246.2163ms
+2024-08-06 02:44:55.781 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:44:55.806 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 23.5935ms
+2024-08-06 02:44:55.806 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 25.4964ms
+2024-08-06 02:44:55.820 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:44:55.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-06 02:44:55.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-06 02:44:55.818 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 36.8563ms
+2024-08-06 02:44:55.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-06 02:44:55.832 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:44:55.838 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 16.7818ms
+2024-08-06 02:44:55.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 19.9015ms
+2024-08-06 02:44:55.842 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:44:55.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 17.6041ms
+2024-08-06 02:44:55.850 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-06 02:44:55.853 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-06 02:44:55.858 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-06 02:47:58.779 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:47:59.179 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:47:59.248 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:47:59.292 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:47:59.317 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:47:59.364 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:48:04.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:48:04.306 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:48:04.338 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:48:04.348 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:48:04.390 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 36.1422ms.
+2024-08-06 02:48:07.827 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-06 02:50:12.630 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 02:50:13.139 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-06 02:50:13.141 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-06 02:50:13.160 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 02:50:13.162 +03:00 [INF] Hosting environment: Development
+2024-08-06 02:50:13.164 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-06 02:50:20.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-06 02:50:20.580 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-06 02:50:20.618 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-06 02:50:20.631 +03:00 [INF] Executing action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) - Validation state: "Valid"
+2024-08-06 02:50:20.698 +03:00 [INF] Executed action method SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT), returned result Microsoft.AspNetCore.Mvc.ViewResult in 58.4498ms.

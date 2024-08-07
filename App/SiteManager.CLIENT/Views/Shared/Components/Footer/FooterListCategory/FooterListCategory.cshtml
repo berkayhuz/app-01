@@ -1,0 +1,28 @@
+﻿@model List<SiteManager.CLIENT.Models.CategoryViewModel>
+
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 pb-8 lg:flex lg:justify-between">
+	@foreach (var category in Model)
+	{
+		<div class="flex flex-col gap-2 items-start">
+			<div>
+				<h3 class="font-semibold text-base">@category.Name</h3>
+			</div>
+			<div class="grid grid-cols-1 gap-1 ml-1">
+				@if (category.SubCategories.Any())
+				{
+					@foreach (var subCategory in category.SubCategories)
+					{
+						<h3 class="font-medium text-base mb-2">@subCategory.Name</h3>
+						@if (subCategory.SubCategories.Any())
+						{
+							@foreach (var subSubCategory in subCategory.SubCategories)
+							{
+								<a asp-route-slug="@subSubCategory.Slug" asp-action="Products" asp-controller="Category" asp-area="" class="text-sm hover:underline">@subSubCategory.Name</a>
+							}
+						}
+					}
+				}
+			</div>
+		</div>
+	}
+</div>

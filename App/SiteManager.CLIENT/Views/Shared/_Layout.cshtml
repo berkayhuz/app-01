@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - Berkay Huz</title>
+	<link rel="stylesheet" href="~/Lib/Flowbite/Style/Css/flowbite.min.css" />
+	<link rel="stylesheet" href="~/Lib/Tailwind/Css/Tailwind.min.css" />
+	<link rel="stylesheet" href="~/Lib/Tinyslider/Style/Css/Tinyslider.min.css" />
+	<link rel="stylesheet" href="~/Lib/Swiperslide/Style/Css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="~/Style/Css/Font.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/Style/Css/Style.css" asp-append-version="true" />
+	<script src="~/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js"></script>
+</head>
+<body>
+@await Component.InvokeAsync("Navbar")
+<main>
+	<div class="max-w-screen-2xl w-full mx-auto">
+		@RenderBody()
+	</div>
+</main>
+
+@await Component.InvokeAsync("Footer")
+<script src="~/Lib/Flowbite/Style/Script/flowbite.min.js"></script>
+<script src="~/Lib/Tinyslider/Style/Javascript/Javascript.min.js"></script>
+<script src="~/Style/Script/javascript.js" asp-append-version="true"></script>
+<script>
+		var swiper = new Swiper(".newProductSwiper", {
+			scrollbar: {
+				el: ".swiper-scrollbar",
+				hide: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			slidesPerView: 6.1,
+		});
+</script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

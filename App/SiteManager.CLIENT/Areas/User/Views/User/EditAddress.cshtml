@@ -1,0 +1,610 @@
+﻿@model SiteManager.CLIENT.Models.AddressModel
+@{
+    ViewData["Title"] = "Mevcut adresi güncelle";
+    Layout = "_UserLayout";
+}
+<section class="bg-white dark:bg-gray-900">
+    <div class="max-w-4xl px-4">
+        <nav class="flex" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-1 mb-4 -mt-4 md:mt-4 md:space-x-2 rtl:space-x-reverse">
+	            <li class="inline-flex items-center">
+					<a asp-area="User" asp-controller="User" asp-action="Index"
+		               class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-black dark:text-gray-400 dark:hover:text-white">
+			            <svg class="w-4 h-4 me-2.5" xmlns="http://www.w3.org/2000/svg" width="1em"
+			                 height="1em" viewBox="0 0 24 24">
+				            <g fill="none" stroke="#333" stroke-linecap="round"
+				               stroke-linejoin="round" stroke-width="2">
+					            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+					            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+				            </g>
+			            </svg>
+						Hesabım
+		            </a>
+	            </li>
+	            <li>
+		            <div class="flex items-center">
+			            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+				            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+			            </svg>
+			            <a asp-action="Addresses" asp-controller="User" asp-area="User" class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">Adreslerim</a>
+		            </div>
+	            </li>
+	            <li aria-current="page">
+		            <div class="flex items-center">
+			            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+			                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+				            <path stroke="currentColor" stroke-linecap="round"
+				                  stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+			            </svg>
+			            <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">Adres güncelle</span>
+		            </div>
+	            </li>
+	            <li aria-current="page">
+		            <div class="flex items-center">
+			            <svg class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1" aria-hidden="true"
+			                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+				            <path stroke="currentColor" stroke-linecap="round"
+				                  stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+			            </svg>
+			            <span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400">@Model.AddressName</span>
+		            </div>
+	            </li>
+            </ol>
+        </nav>
+        <section>
+			<form asp-action="EditAddress" asp-controller="User" asp-route-area="User" asp-route-id="@Model.Id" method="post">
+		        @Html.AntiForgeryToken()
+				<div class="grid mb-4 grid-cols-1 sm:gap-6 sm:mb-5">
+					<div class="flex flex-col mt-6">
+						<h3 class="font-bold text-base">Yeni teslimat adresi ekle</h3>
+					</div>
+					@if (TempData["ErrorMessage"] != null)
+					{
+						<div class="hidden alert text-xs w-max tracking-wide select-none bg-red-500 text-white rounded-lg py-1 px-2">
+							<p>@TempData["ErrorMessage"]</p>
+						</div>
+					}
+					@if (TempData["SuccessMessage"] != null)
+					{
+						<div class="hidden alert text-xs w-max tracking-wide select-none bg-red-500 text-white rounded-lg py-1 px-2">
+							<p>@TempData["SuccessMessage"]</p>
+						</div>
+					}
+					<div class="w-full -mt-2 flex flex-col gap-y-4">
+						<div class="flex flex-col sm:flex-row justify-between gap-4">
+							<div class="w-full">
+								<label asp-for="AddressName"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Adres Başlığı
+									<span asp-validation-for="AddressName"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+								</label>
+								<input maxlength="20" minlength="2" placeholder="Ev" type="text" value="@Model.AddressName" asp-for="AddressName" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+							</div>
+							<div class="w-full">
+								<label asp-for="FirstName"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									İsim
+									<span asp-validation-for="FirstName"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+								</label>
+								<input maxlength="30" minlength="3" placeholder="İsminiz" type="text" asp-for="FirstName" value="@Model.FirstName" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+								<span asp-validation-for="FirstName"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</div>
+						</div>
+						<div class="flex flex-col sm:flex-row justify-between gap-4">
+							<div class="w-full">
+								<label asp-for="LastName"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Soyisim
+									<span asp-validation-for="LastName"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+								</label>
+								<input maxlength="30" minlength="2" placeholder="Soyisminiz" value="@Model.LastName" type="text" asp-for="LastName" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+
+							</div>
+							<div class="w-full">
+								<label asp-for="PhoneNumber" class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Cep telefonu
+									<div id="char-count-user-phone">0/10</div>
+									<span id="error-message-user-phone" class="w-max text-red-500 hidden"></span>
+									<a class="text-xs underline text-gray-500" href="#">
+										Daha fazla
+										bilgi edinin
+									</a>
+									<span asp-validation-for="PhoneNumber" class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+									<button data-popover-target="popover-user-phone-info" type="button" class="">
+										<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+											 viewBox="0 0 24 24">
+											<g fill="none" stroke="red" stroke-linecap="round"
+											   stroke-linejoin="round" stroke-width="2">
+												<circle cx="12" cy="12" r="10" />
+												<path d="M12 16v-4m0-4h.01" />
+											</g>
+										</svg>
+									</button>
+									<div data-popover id="popover-user-phone-info" role="tooltip"
+										 class="absolute z-10 invisible inline-block w-64 text-xs text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+										<div class="px-3 py-2">
+											<p>
+												Başında 0 olmadan giriniz.
+											</p>
+										</div>
+										<div data-popper-arrow></div>
+									</div>
+								</label>
+								<input maxlength="13" minlength="10" placeholder="5438018574" type="tel" asp-for="PhoneNumber" id="add-address-user-phone" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+
+							</div>
+						</div>
+						<div class="flex flex-col sm:flex-row justify-between gap-4">
+							<div class="w-full">
+								<label asp-for="AlternativePhoneNumber"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Alternatif
+									telefon
+									<div id="char-count-alternative-phone" class="char-count"></div>
+									<span id="error-message-alternative-phone" class="w-max text-red-500 hidden"></span>
+									<a class="text-xs underline text-gray-500" href="#">
+										Daha fazla
+										bilgi edinin
+									</a>
+									<span asp-validation-for="AlternativePhoneNumber"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+									<button data-popover-target="popover-user-firstname-info" type="button" class="">
+										<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+											 viewBox="0 0 24 24">
+											<g fill="none" stroke="red" stroke-linecap="round"
+											   stroke-linejoin="round" stroke-width="2">
+												<circle cx="12" cy="12" r="10" />
+												<path d="M12 16v-4m0-4h.01" />
+											</g>
+										</svg>
+									</button>
+									<div data-popover id="popover-user-firstname-info" role="tooltip"
+										 class="absolute z-10 invisible inline-block w-64 text-xs text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+										<div class="px-3 py-2">
+											<p>
+												Adresinizde olmama ihtimaline karşı eklemenizi
+												tavsiye ederiz.
+											</p>
+										</div>
+										<div data-popper-arrow></div>
+									</div>
+
+								</label>
+								<input maxlength="13" minlength="10" placeholder="5438018574" type="tel"
+									   asp-for="AlternativePhoneNumber" id="add-address-alternative-phone"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+                                                    focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+                                                    dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+
+							</div>
+							<div class="w-full relative">
+								<label asp-for="Email"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									E-posta
+									<span asp-validation-for="Email"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+								</label>
+								<input maxlength="75" minlength="5" placeholder="company@email.com" type="email"
+									   asp-for="Email" id="add-address-email"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+                                                    focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+                                                    dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+							</div>
+						</div>
+						<div class="flex flex-col sm:flex-row justify-between gap-4 -mb-6">
+							<div class="w-full">
+								<label asp-for="City"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Şehir
+									<span asp-validation-for="City"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+								</label>
+								<input maxlength="75" minlength="5" placeholder="Şehir" type="text" asp-for="City"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+                                                focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+                                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+							</div>
+							<div class="w-full">
+								<label asp-for="District"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									İlçe
+									<span asp-validation-for="District"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+								</label>
+								<input maxlength="75" minlength="5" placeholder="İlçe" type="text" asp-for="District"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+                                                    focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+                                                    dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+							</div>
+							<div class="w-full">
+								<label asp-for="Neighborhood"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Mahalle
+									<span asp-validation-for="Neighborhood"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+								</label>
+								<input maxlength="75" minlength="5" placeholder="Mahalle" type="text"
+									   asp-for="Neighborhood"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+                                                    focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+                                                    dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+							</div>
+						</div>
+						<div class="flex flex-col sm:flex-row justify-between gap-4">
+							<div class="w-full">
+								<label asp-for="AddressInfo"
+									   class="block mb-2 text-xs mt-4 font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Adres
+									<span asp-validation-for="AddressInfo"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+								</label>
+								<textarea maxlength="150" minlength="5" asp-for="AddressInfo"
+										  placeholder="Mahalle, sokak, cadde ve diğer bilgileri giriniz." type="email"
+										  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+                                                    focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+                                                    dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-col gap-4">
+					<div class="flex items-center gap-2" id="invoice-1">
+						<input type="checkbox" id="fatura-option-1" value="" name="faturaOption1" class="hidden peer">
+						<label for="fatura-option-1" id="fatura-option-label-1"
+							   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer dark:hover:text-gray-300  dark:border-gray-700 peer-checked:border-blue-600 peer-checked:text-black text-gray-500 peer-checked:bg-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400  dark:bg-gray-800 dark:hover:bg-gray-700 relative">
+							<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+							</div>
+							<p class="text-sm font-medium absolute w-max left-8">
+								Fatura adresim ile
+								teslimat adresim aynıdır.
+							</p>
+						</label>
+					</div>
+					<div class="flex items-center gap-2" id="invoice-2">
+						<input type="checkbox" asp-for="IsInvoiceAddress" id="IsInvoiceAddress" value="" class="hidden peer">
+						<label asp-for="IsInvoiceAddress" id="fatura-option-label-2"
+							   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer dark:hover:text-gray-300  dark:border-gray-700 peer-checked:border-blue-600 peer-checked:text-black text-gray-500 peer-checked:bg-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400  dark:bg-gray-800 dark:hover:bg-gray-700 relative">
+							<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+							</div>
+							<p class="text-sm font-medium absolute w-max left-8">
+								Faturamın farklı
+								bir adrese gönderilmesini istiyorum.
+								<span asp-validation-for="IsInvoiceAddress"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</p>
+						</label>
+					</div>
+				</div>
+				<div id="invoice-area" class="hidden">
+					<div class="flex flex-col mt-6 mb-4">
+						<h3 class="font-bold text-base">Fatura tipi</h3>
+					</div>
+					<div class="flex flex-col gap-4">
+						<div class="flex gap-36 flex-row">
+							<div class="flex items-center gap-2">
+								<input type="radio" id="option-person" name="InvoiceType" value="1"
+									   class="hidden peer">
+								<label id="option-person-label" for="option-person"
+									   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer relative">
+									<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+									</div>
+									<p class="text-sm font-medium absolute w-max left-8">Şahıs</p>
+								</label>
+							</div>
+							<div class="flex items-center gap-2">
+								<input type="radio" id="option-company" name="InvoiceType" value="2"
+									   class="hidden peer">
+								<label id="option-company-label" for="option-company"
+									   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer relative">
+									<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+									</div>
+									<p class="text-sm font-medium absolute w-max left-8">Şirket</p>
+								</label>
+							</div>
+						</div>
+
+						<div id="person-section" class="hidden">
+							<div class="flex gap-36 flex-row">
+								<div class="flex items-center gap-2">
+									<input type="checkbox" id="option-tc-citizen" value="" class="hidden peer">
+									<label id="option-tc-citizen-label" for="option-tc-citizen"
+										   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer relative">
+										<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+										</div>
+										<p class="text-sm font-medium absolute w-max left-8">
+											T.C.
+											Vatandaşı
+										</p>
+									</label>
+								</div>
+								<div class="flex items-center gap-2">
+									<input type="checkbox" id="option-foreign-citizen" value="" class="hidden peer">
+									<label id="option-foreign-citizen-label" for="option-foreign-citizen"
+										   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer relative">
+										<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+										</div>
+										<p class="text-sm font-medium absolute w-max left-8">
+											Diğer
+											Ülke Vatandaşı
+										</p>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tc-citizen-section"
+						 class="hidden flex flex-col sm:flex-row justify-between gap-4 mt-6 mb-3">
+						<div class="w-full">
+							<label asp-for="TCNumber" class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								T.C Kimlik Numarası
+								<span asp-validation-for="TCNumber"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</label>
+							<input id="tc-num" placeholder="T.C Kimlik Numarası" type="text" asp-for="TCNumber" value="@Model.TCNumber" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300">
+						</div>
+					</div>
+
+					<div id="foreign-citizen-section"
+						 class="hidden flex flex-col sm:flex-row justify-between gap-4 mt-6 mb-3">
+						<div class="w-full">
+							<label asp-for="PassaportNumber"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								Pasaport
+								No
+							</label>
+							<input id="passport-num" maxlength="75" value="@Model.PassaportNumber" minlength="5" placeholder="Pasaport No" type="text"
+								   asp-for="PassaportNumber"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300">
+							<span asp-validation-for="PassaportNumber"
+								  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+						</div>
+						<div class="w-full">
+							<label asp-for="PassaportCountry"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">Ülke</label>
+							<input id="country" maxlength="75" minlength="5" value="@Model.PassaportCountry" placeholder="Ülke" type="text"
+								   asp-for="PassaportCountry"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300">
+							<span asp-validation-for="PassaportCountry"
+								  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+						</div>
+					</div>
+					<div id="company-section" class="hidden flex-col mt-3 mb-3">
+						<div class="flex flex-col mt-6 mb-4">
+							<h3 class="font-bold text-base">E-Fatura Mükellefi misiniz?</h3>
+						</div>
+						<div class="flex gap-36 flex-row mb-6">
+							<div class="flex items-center gap-2">
+								<input type="checkbox" id="option-e-fatura-evet" name="InvoicePayer" value="true"
+									   class="hidden peer">
+								<label id="option-e-fatura-evet-label" for="option-e-fatura-evet"
+									   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer relative">
+									<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+									</div>
+									<p class="text-sm font-medium absolute w-max left-8">Evet</p>
+								</label>
+							</div>
+							<div class="flex items-center gap-2">
+								<input type="checkbox" id="option-e-fatura-hayir" name="InvoicePayer" value="false"
+									   class="hidden peer">
+								<label id="option-e-fatura-hayir-label" for="option-e-fatura-hayir"
+									   class="inline-flex items-center justify-between w-6 h-6 text-gray-500 bg-white border-2 border-gray-200 rounded-full cursor-pointer relative">
+									<div class="absolute w-5 h-5 bg-transparent border-2 border-white rounded-full">
+									</div>
+									<p class="text-sm font-medium absolute w-max left-8">Hayır</p>
+								</label>
+							</div>
+						</div>
+						<div class="flex flex-col sm:flex-row justify-between gap-4">
+							<div class="w-full">
+								<label asp-for="CommercialTitle"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Ticari
+									Ünvan
+									<span asp-validation-for="CommercialTitle"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+								</label>
+								<input id="commercial-title" maxlength="75" minlength="1" placeholder="Ticari Ünvan"
+									   type="text" asp-for="CommercialTitle"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300">
+							</div>
+							<div class="w-full">
+								<label for="tax-office" asp-for="TaxAdministration"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Vergi
+									Dairesi
+									<span asp-validation-for="TaxAdministration"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+								</label>
+								<input id="tax-office" maxlength="75" minlength="5" placeholder="Vergi Dairesi"
+									   type="text" asp-for="TaxAdministration"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300">
+							</div>
+							<div class="w-full">
+								<label asp-for="TaxNumber"
+									   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+									Vergi
+									Numarası
+									<span asp-validation-for="TaxNumber"
+										  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+									<button data-popover-target="popover-vergi-no-info" type="button" class="">
+										<svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+											 viewBox="0 0 24 24">
+											<g fill="none" stroke="red" stroke-linecap="round" stroke-linejoin="round"
+											   stroke-width="2">
+												<circle cx="12" cy="12" r="10" />
+												<path d="M12 16v-4m0-4h.01" />
+											</g>
+										</svg>
+									</button>
+									<div data-popover id="popover-vergi-no-info" role="tooltip"
+										 class="absolute z-10 invisible inline-block w-64 text-xs text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+										<div class="px-3 py-2">
+											<p>
+												*Şahıs şirketlerinde T.C kimlik numarası kullanılır.
+											</p>
+										</div>
+										<div data-popper-arrow></div>
+									</div>
+								</label>
+								<input id="tax-num" maxlength="75" minlength="5" placeholder="Vergi Numarası"
+									   type="text" asp-for="TaxNumber"
+									   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full mt-6 mb-4 flex flex-col gap-y-4 hidden" id="invoice-address">
+					<div class="flex flex-col sm:flex-row justify-between gap-4">
+						<div class="w-full">
+							<label asp-for="InvoiceAddressName"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								Adres
+								başlığı
+								<span asp-validation-for="InvoiceAddressName"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</label>
+							<input maxlength="75" minlength="5" placeholder="İş yeri" type="text"
+								   asp-for="InvoiceAddressName"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+						</div>
+						<div class="w-full">
+							<label asp-for="InvoiceFirstName"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								İsim
+								<span asp-validation-for="InvoiceFirstName"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</label>
+							<input maxlength="75" minlength="5" placeholder="İsim" type="text"
+								   asp-for="InvoiceFirstName"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+	                                                focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+	                                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+
+						</div>
+					</div>
+					<div class="flex flex-col sm:flex-row justify-between gap-4">
+						<div class="w-full">
+							<label asp-for="InvoiceLastName"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								Soyisim
+								<span asp-validation-for="InvoiceLastName"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</label>
+							<input maxlength="75" minlength="5" placeholder="Soyisminiz" type="text"
+								   asp-for="InvoiceLastName"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+	                                                focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+	                                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+
+						</div>
+						<div class="w-full">
+							<label asp-for="InvoicePhoneNumber"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								Cep
+								telefonu
+								<span asp-validation-for="InvoicePhoneNumber"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</label>
+							<input maxlength="75" minlength="5" placeholder="0224-000-00-00" type="tel"
+								   asp-for="InvoicePhoneNumber"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+	                                                focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+	                                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+
+						</div>
+					</div>
+					<div class="flex flex-col sm:flex-row justify-between gap-4">
+						<div class="w-full">
+							<label asp-for="InvoiceEmail"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								E-posta
+								<span asp-validation-for="InvoiceEmail"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+							</label>
+							<input maxlength="75" minlength="5" placeholder="company@email.com" type="email"
+								   asp-for="InvoiceEmail"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+	                                                focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+	                                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+						</div>
+					</div>
+					<div class="flex flex-col sm:flex-row justify-between gap-4 -mb-6">
+						<div class="w-full">
+							<label asp-for="InvoiceCity"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								Şehir
+								<span asp-validation-for="InvoiceCity"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+							</label>
+							<input maxlength="75" minlength="5" placeholder="Şehir" type="text" asp-for="InvoiceCity"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+	                                            focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+	                                            dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+						</div>
+						<div class="w-full">
+							<label asp-for="InvoiceDistrict"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								İlçe
+								<span asp-validation-for="InvoiceDistrict"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+							</label>
+							<input maxlength="75" minlength="5" placeholder="İlçe" type="text" asp-for="InvoiceDistrict"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300
+	                                                focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600
+	                                                dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+						</div>
+						<div class="w-full">
+							<label asp-for="InvoiceNeighborhood"
+								   class="block mb-2 text-xs font-medium text-gray-900 relative inline-flex gap-1 dark:text-white items-center">
+								Mahalle
+								<span asp-validation-for="InvoiceNeighborhood"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+							</label>
+							<input maxlength="75" minlength="5" placeholder="Mahalle" type="text"
+								   asp-for="InvoiceNeighborhood"
+								   class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" />
+						</div>
+					</div>
+					<div class="flex flex-col sm:flex-row justify-between gap-4">
+						<div class="w-full">
+							<label asp-for="InvoiceAddressInfo"
+								   class="block mb-2 text-xs font-medium text-gray-900 mt-4 relative inline-flex gap-1 dark:text-white items-center">
+								Adres
+								<span asp-validation-for="InvoiceAddressInfo"
+									  class="text-error font-semibold text-red-600 rounded-lg text-xs"></span>
+
+							</label>
+							<textarea maxlength="150" minlength="5"
+									  placeholder="Mahalle, sokak, cadde ve diğer bilgileri giriniz." type="email"
+									  asp-for="InvoiceAddressInfo"
+									  class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="flex justify-between items-center space-x-4">
+					<div></div>
+					<div class="flex gap-4 items-center">
+						<a id="editAddressCancelButton" class="hover-border-black bg-white py-1 px-4 rounded-full text-black font-regular text-sm">Vazgeç</a>
+						<button type="submit"
+								class="hover-border-black bg-black-3 py-1 px-4 rounded-full text-white font-regular text-sm hover:bg-white hover:text-black">
+							Adresi güncelle
+						</button>
+					</div>
+				</div>
+	        </form>
+        </section>
+    </div>
+</section>

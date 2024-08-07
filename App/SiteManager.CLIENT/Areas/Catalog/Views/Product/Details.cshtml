@@ -1,0 +1,68 @@
+﻿@model SiteManager.CLIENT.Models.ProductViewModel
+
+@{
+	ViewData["Title"] = Model.Name;
+}
+
+<h2>@Model.Name</h2>
+
+<div>
+	<img src="@Model.ImageUrl" alt="@Model.Name" style="max-width: 300px; max-height: 300px;" />
+</div>
+
+<div>
+	<h3>Description</h3>
+	<p>@Model.Description</p>
+</div>
+
+<div>
+	<h3>Price</h3>
+	<p>@Model.Price</p>
+</div>
+
+<div>
+	<h3>Discount Rate</h3>
+	<p>@Model.DiscountRate%</p>
+</div>
+
+<div>
+	<h3>Installment Count</h3>
+	<p>@Model.InstallmentCount</p>
+</div>
+
+<div>
+	<h3>Details</h3>
+	<p>@Model.Details</p>
+</div>
+
+<div>
+	<h3>Category Path</h3>
+	<p>@Model.CategoryPathWithName</p>
+	<p>@Model.CategoryPathWithSlug</p>
+</div>
+
+@if (Model.Colors != null && Model.Colors.Any())
+{
+	<div>
+		<h3>Colors</h3>
+		<ul>
+			@foreach (var color in Model.Colors)
+			{
+				<li>@color.Name (@color.Code)</li>
+			}
+		</ul>
+	</div>
+}
+
+@if (Model.Sizes != null && Model.Sizes.Any())
+{
+	<div>
+		<h3>Sizes</h3>
+		<ul>
+			@foreach (var size in Model.Sizes)
+			{
+				<li>@size.Code (@size.Code)</li>
+			}
+		</ul>
+	</div>
+}

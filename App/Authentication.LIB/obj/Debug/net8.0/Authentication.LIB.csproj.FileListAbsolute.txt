@@ -1,0 +1,12 @@
+C:\Users\berka\Desktop\App\Authentication.LIB\bin\Debug\net8.0\Authentication.LIB.deps.json
+C:\Users\berka\Desktop\App\Authentication.LIB\bin\Debug\net8.0\Authentication.LIB.dll
+C:\Users\berka\Desktop\App\Authentication.LIB\bin\Debug\net8.0\Authentication.LIB.pdb
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.csproj.AssemblyReference.cache
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.AssemblyInfoInputs.cache
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.AssemblyInfo.cs
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.csproj.CoreCompileInputs.cache
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.dll
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\refint\Authentication.LIB.dll
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\Authentication.LIB.pdb
+C:\Users\berka\Desktop\App\Authentication.LIB\obj\Debug\net8.0\ref\Authentication.LIB.dll

@@ -1,0 +1,199 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SiteManager.CLIENT
+build_property.RootNamespace = SiteManager.CLIENT
+build_property.ProjectDir = C:\Users\berka\Desktop\App\SiteManager.CLIENT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\berka\Desktop\App\SiteManager.CLIENT
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/AccountConfirmation/ConfirmedSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcQWNjb3VudENvbmZpcm1hdGlvblxDb25maXJtZWRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/AccountConfirmation/ResendConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcQWNjb3VudENvbmZpcm1hdGlvblxSZXNlbmRDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/ChangeEmail/ChangeEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcQ2hhbmdlRW1haWxcQ2hhbmdlRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/ChangeEmail/ConfirmChangeEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcQ2hhbmdlRW1haWxcQ29uZmlybUNoYW5nZUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/ForgotPassword/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcRm9yZ290UGFzc3dvcmRcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/ForgotPassword/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcRm9yZ290UGFzc3dvcmRcRm9yZ290UGFzc3dvcmRDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/Register/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/ResetPassword/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcUmVzZXRQYXNzd29yZFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/ResetPassword/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcUmVzZXRQYXNzd29yZFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/Shared/_AuthenticationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcU2hhcmVkXF9BdXRoZW50aWNhdGlvbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/TokenTest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcVG9rZW5UZXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Authentication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRpb25cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Catalog/Views/Category/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2F0YWxvZ1xWaWV3c1xDYXRlZ29yeVxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/Catalog/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2F0YWxvZ1xWaWV3c1xQcm9kdWN0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX1VzZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/AddAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEFkZEFkZHJlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/AddressDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEFkZHJlc3NEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/Addresses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEFkZHJlc3Nlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/EditAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEVkaXRBZGRyZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/PersonelInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFBlcnNvbmVsSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/User/UpdateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVwZGF0ZUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Areas/User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Breadcrumb/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnJlYWRjcnVtYlxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Catalog/Features/One.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0YWxvZ1xGZWF0dXJlc1xPbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Catalog/Sliders/IndexSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0YWxvZ1xTbGlkZXJzXEluZGV4U2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Catalog/Sliders/NewProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0YWxvZ1xTbGlkZXJzXE5ld1Byb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Footer/FooterListCategory/FooterListCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXEZvb3Rlckxpc3RDYXRlZ29yeVxGb290ZXJMaXN0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Navbar/Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXE5hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Navbar/NavListCategory/NavListCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXE5hdkxpc3RDYXRlZ29yeVxOYXZMaXN0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/Navbar/NavUserDropdown/NavUserDropdown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXE5hdlVzZXJEcm9wZG93blxOYXZVc2VyRHJvcGRvd24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/User/UserInformation/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclxVc2VySW5mb3JtYXRpb25cRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/User/UserInformation/FirstName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclxVc2VySW5mb3JtYXRpb25cRmlyc3ROYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Components/User/UserInformation/LastName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclxVc2VySW5mb3JtYXRpb25cTGFzdE5hbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Desktop/App/SiteManager.CLIENT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5436cmpvqb

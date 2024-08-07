@@ -1,0 +1,183 @@
+﻿@{
+	Layout = "_Layout";
+	var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+	var action = ViewContext.RouteData.Values["action"]?.ToString();
+
+}
+
+<main>
+	<div class="max-w-screen-xl w-full mx-auto">
+		@if ((controller == "User" && action == "Index"))
+		{
+			@RenderBody()
+		}
+		else
+		{
+			<div class="grid custom-grid-cols-2-3 gap-6">
+				<div class="w-full">
+					<aside id="default-sidebar" class="custom-user-sidebar w-64" aria-label="Sidebar">
+						<div class="px-3 py-4 overflow-y-auto rounded-lg">
+							<div class="flex justify-between items-center mb-4 pb-4 border-b border-gray-300">
+								<div class="flex flex-col items-start">
+									<span class="font-semibold text-sm">@await Component.InvokeAsync("UserFirstName") @await Component.InvokeAsync("UserLastName") </span>
+									<span class="text-xs text-gray-500 -mt-.5">@await Component.InvokeAsync("UserEmail")</span>
+								</div>
+								<div class="md:hidden block cursor-pointer custom-mobile-sidebar-list-button">
+									<svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+										 viewBox="0 0 24 24">
+										<path fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round"
+											  stroke-width="2" d="m3 16l4 4l4-4m-4 4V4m4 0h10M11 8h7m-7 4h4" />
+									</svg>
+								</div>
+							</div>
+							<div class="custom-mobile-user-sidebar-list">
+								<ul class="space-y-2 font-medium border-b border-gray-100 pb-4 mb-4">
+									<li>
+										<a asp-action="PersonelInformation" asp-controller="User" asp-area="User"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<g fill="none" stroke="#333" stroke-linecap="round"
+												   stroke-linejoin="round" stroke-width="2">
+													<circle cx="12" cy="8" r="5" />
+													<path d="M20 21a8 8 0 0 0-16 0" />
+												</g>
+											</svg>
+											<span class="ms-2">Kişisel bilgilerim</span>
+										</a>
+									</li>
+									<li>
+										<a asp-action="Addresses" asp-controller="User" asp-area="User"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<path fill="none" stroke="#333" stroke-linecap="round"
+													  stroke-linejoin="round" stroke-width="2"
+													  d="m3 11l19-9l-9 19l-2-8z" />
+											</svg>
+											<span class="ms-2">Adres bilgileri</span>
+										</a>
+									</li>
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<g fill="none" stroke="#333" stroke-linecap="round"
+												   stroke-linejoin="round" stroke-width="2">
+													<circle cx="8" cy="21" r="1" />
+													<circle cx="19" cy="21" r="1" />
+													<path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+												</g>
+											</svg>
+											<span class="ms-2">Siparişlerim</span>
+										</a>
+									</li>
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<path fill="none" stroke="#333" stroke-linecap="round"
+													  stroke-linejoin="round" stroke-width="2"
+													  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+											</svg>
+											<span class="ms-2">Favoriler</span>
+										</a>
+									</li>
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<path fill="none" stroke="#333" stroke-linecap="round"
+													  stroke-linejoin="round" stroke-width="2"
+													  d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Zm11-4v2m0 10v2m0-8v2" />
+											</svg>
+											<span class="ms-2">Kuponlarım</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="space-y-2 font-medium border-b border-gray-100 pb-4 mb-4">
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<g fill="none" stroke="#333" stroke-linecap="round"
+												   stroke-linejoin="round" stroke-width="2">
+													<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+													<path d="m9 12l2 2l4-4" />
+												</g>
+											</svg>
+											<span class="ms-2">Şifre ve güvenlik</span>
+										</a>
+									</li>
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<g fill="none" stroke="#333" stroke-linecap="round"
+												   stroke-linejoin="round" stroke-width="2">
+													<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+													<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3m.08 4h.01" />
+												</g>
+											</svg>
+											<span class="ms-2">Destek talepleri</span>
+										</a>
+									</li>
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<g fill="none" stroke="#333" stroke-linecap="round"
+												   stroke-linejoin="round" stroke-width="2">
+													<circle cx="12" cy="5" r="1" />
+													<path d="m9 20l3-6l3 6M6 8l6 2l6-2m-6 2v4" />
+												</g>
+											</svg>
+											<span class="ms-2">İletişim tercihleri</span>
+										</a>
+									</li>
+									<li>
+										<a href="#"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<path fill="none" stroke="#333" stroke-linecap="round"
+													  stroke-linejoin="round" stroke-width="2"
+													  d="M12 2a10 10 0 1 0 10 10a4 4 0 0 1-5-5a4 4 0 0 1-5-5M8.5 8.5v.01M16 15.5v.01M12 12v.01M11 17v.01M7 14v.01" />
+											</svg>
+											<span class="ms-2">Çerez ayarları</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="space-y-2 font-medium pb-4 mb-4">
+									<li>
+										<a asp-area="Authentication" asp-controller="Logout" asp-action="Logout"
+										   class="flex text-sm items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+											<svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em"
+												 height="1em" viewBox="0 0 24 24">
+												<path fill="none" stroke="#333" stroke-linecap="round"
+													  stroke-linejoin="round" stroke-width="2"
+													  d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4m7 14l5-5l-5-5m5 5H9" />
+											</svg>
+											<span class="ms-2">Çıkış yap</span>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+
+						</div>
+					</aside>
+				</div>
+				<div class="w-full">
+					@RenderBody()
+				</div>
+			</div>
+		}
+	</div>
+</main>

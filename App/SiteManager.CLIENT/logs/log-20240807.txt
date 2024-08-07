@@ -1,0 +1,113 @@
+2024-08-07 00:59:50.501 +03:00 [INF] User profile is available. Using 'C:\Users\berka\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-07 00:59:50.672 +03:00 [INF] Now listening on: https://localhost:7239
+2024-08-07 00:59:50.673 +03:00 [INF] Now listening on: http://localhost:5197
+2024-08-07 00:59:50.676 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-07 00:59:50.677 +03:00 [INF] Hosting environment: Development
+2024-08-07 00:59:50.678 +03:00 [INF] Content root path: C:\Users\berka\Desktop\App\SiteManager.CLIENT
+2024-08-07 01:00:14.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/ - null null
+2024-08-07 01:00:14.531 +03:00 [INF] Executing endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-07 01:00:14.758 +03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SiteManager.CLIENT.Controllers.HomeController (SiteManager.CLIENT).
+2024-08-07 01:00:27.582 +03:00 [INF] Executing ViewResult, running view Index.
+2024-08-07 01:00:29.092 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-07 01:00:29.095 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-07 01:00:30.779 +03:00 [INF] Received HTTP response headers after 1680.4892ms - 200
+2024-08-07 01:00:30.783 +03:00 [INF] End processing HTTP request after 1694.4141ms - 200
+2024-08-07 01:00:31.362 +03:00 [INF] Start processing HTTP request GET https://localhost:7180/api/category
+2024-08-07 01:00:31.363 +03:00 [INF] Sending HTTP request GET https://localhost:7180/api/category
+2024-08-07 01:00:31.440 +03:00 [INF] Received HTTP response headers after 75.556ms - 200
+2024-08-07 01:00:31.441 +03:00 [INF] End processing HTTP request after 79.0946ms - 200
+2024-08-07 01:00:31.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Css/swiper-bundle.min.css - null null
+2024-08-07 01:00:31.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Css/Tinyslider.min.css - null null
+2024-08-07 01:00:31.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Style/Css/Font.css?v=Bk4RAddBB5S5VSiCZmspeCg58DhUoSpLwyUn8SaR5j0 - null null
+2024-08-07 01:00:31.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tailwind/Css/Tailwind.min.css - null null
+2024-08-07 01:00:31.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Style/Css/Style.css?v=cbOOvMOy_l4uGm8DrVM1wfVr8YvhTFRW51zAj7L_aNE - null null
+2024-08-07 01:00:31.702 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Css/flowbite.min.css - null null
+2024-08-07 01:00:31.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js - null null
+2024-08-07 01:00:31.716 +03:00 [INF] Executed ViewResult - view Index executed in 16622.388ms.
+2024-08-07 01:00:31.723 +03:00 [INF] The file /Lib/Swiperslide/Style/Css/swiper-bundle.min.css was not modified
+2024-08-07 01:00:31.723 +03:00 [INF] The file /Lib/Tinyslider/Style/Css/Tinyslider.min.css was not modified
+2024-08-07 01:00:31.723 +03:00 [INF] The file /Style/Css/Font.css was not modified
+2024-08-07 01:00:31.725 +03:00 [INF] The file /Lib/Tailwind/Css/Tailwind.min.css was not modified
+2024-08-07 01:00:31.727 +03:00 [INF] The file /Style/Css/Style.css was not modified
+2024-08-07 01:00:31.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Style/Css/Font.css?v=Bk4RAddBB5S5VSiCZmspeCg58DhUoSpLwyUn8SaR5j0 - 304 null text/css 36.4938ms
+2024-08-07 01:00:31.743 +03:00 [INF] Executed action SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT) in 16983.5148ms
+2024-08-07 01:00:31.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Css/swiper-bundle.min.css - 304 null text/css 32.8881ms
+2024-08-07 01:00:31.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Css/Tinyslider.min.css - 304 null text/css 32.582ms
+2024-08-07 01:00:31.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tailwind/Css/Tailwind.min.css - 304 null text/css 41.4248ms
+2024-08-07 01:00:31.754 +03:00 [INF] Executed endpoint 'SiteManager.CLIENT.Controllers.HomeController.Index (SiteManager.CLIENT)'
+2024-08-07 01:00:31.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Style/Css/Style.css?v=cbOOvMOy_l4uGm8DrVM1wfVr8YvhTFRW51zAj7L_aNE - 304 null text/css 45.8375ms
+2024-08-07 01:00:31.729 +03:00 [INF] The file /Lib/Flowbite/Style/Css/flowbite.min.css was not modified
+2024-08-07 01:00:31.731 +03:00 [INF] The file /Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js was not modified
+2024-08-07 01:00:31.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-broggan-koleksiyonu-tr.webp - null null
+2024-08-07 01:00:31.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-ikeada-yeni-ne-var-temmuz-tr.webp - null null
+2024-08-07 01:00:31.767 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Css/flowbite.min.css - 304 null text/css 65.2217ms
+2024-08-07 01:00:31.768 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/ - 200 null text/html; charset=utf-8 17428.9543ms
+2024-08-07 01:00:31.768 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js - 304 null text/javascript 58.4827ms
+2024-08-07 01:00:31.772 +03:00 [INF] The file /Uploads/Slides/yeni-broggan-koleksiyonu-tr.webp was not modified
+2024-08-07 01:00:31.774 +03:00 [INF] The file /Uploads/Slides/yeni-ikeada-yeni-ne-var-temmuz-tr.webp was not modified
+2024-08-07 01:00:31.783 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-broggan-koleksiyonu-tr.webp - 304 null image/webp 23.5051ms
+2024-08-07 01:00:31.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-ikeada-yeni-ne-var-temmuz-tr.webp - 304 null image/webp 24.3028ms
+2024-08-07 01:00:31.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-yaz-indirimi-tr.webp - null null
+2024-08-07 01:00:31.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-nytillverkad-koleksiyonu-tr.webp - null null
+2024-08-07 01:00:31.818 +03:00 [INF] The file /Uploads/Slides/yeni-yaz-indirimi-tr.webp was not modified
+2024-08-07 01:00:31.820 +03:00 [INF] The file /Uploads/Slides/yeni-nytillverkad-koleksiyonu-tr.webp was not modified
+2024-08-07 01:00:31.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-yaz-indirimi-tr.webp - 304 null image/webp 6.1018ms
+2024-08-07 01:00:31.822 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Slides/yeni-nytillverkad-koleksiyonu-tr.webp - 304 null image/webp 7.1642ms
+2024-08-07 01:00:31.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Javascript/Javascript.min.js - null null
+2024-08-07 01:00:31.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Style/Script/javascript.js?v=7Oc190PY6TIaMOCoz25TGzYzTbhDVKpiYd7mq5dXHOM - null null
+2024-08-07 01:00:31.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js - null null
+2024-08-07 01:00:31.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-07 01:00:31.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/3.webp - null null
+2024-08-07 01:00:31.844 +03:00 [INF] The file /Lib/Tinyslider/Style/Javascript/Javascript.min.js was not modified
+2024-08-07 01:00:31.847 +03:00 [INF] The file /Style/Script/javascript.js was not modified
+2024-08-07 01:00:31.850 +03:00 [INF] The file /Lib/Flowbite/Style/Script/flowbite.min.js was not modified
+2024-08-07 01:00:31.833 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/4.webp - null null
+2024-08-07 01:00:31.830 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/1.webp - null null
+2024-08-07 01:00:31.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/Javascript/Javascript.min.js - 304 null text/javascript 39.9334ms
+2024-08-07 01:00:31.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Style/Script/javascript.js?v=7Oc190PY6TIaMOCoz25TGzYzTbhDVKpiYd7mq5dXHOM - 304 null text/javascript 42.1158ms
+2024-08-07 01:00:31.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js - 304 null text/javascript 44.6921ms
+2024-08-07 01:00:31.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/7.webp - null null
+2024-08-07 01:00:31.868 +03:00 [INF] The file /Uploads/Product-Images/3.webp was not modified
+2024-08-07 01:00:31.880 +03:00 [INF] The file /Uploads/Product-Images/4.webp was not modified
+2024-08-07 01:00:31.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/6.webp - null null
+2024-08-07 01:00:31.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/8.webp - null null
+2024-08-07 01:00:31.909 +03:00 [INF] The file /Uploads/Product-Images/7.webp was not modified
+2024-08-07 01:00:31.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/3.webp - 304 null image/webp 77.1704ms
+2024-08-07 01:00:31.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/4.webp - 304 null image/webp 77.779ms
+2024-08-07 01:00:31.895 +03:00 [INF] The file /Uploads/Product-Images/1.webp was not modified
+2024-08-07 01:00:31.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/2.webp - null null
+2024-08-07 01:00:31.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Uploads/Product-Images/5.webp - null null
+2024-08-07 01:00:31.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 32.5256ms
+2024-08-07 01:00:31.914 +03:00 [INF] The file /Uploads/Product-Images/6.webp was not modified
+2024-08-07 01:00:31.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/_vs/browserLink - null null
+2024-08-07 01:00:31.918 +03:00 [INF] The file /Uploads/Product-Images/8.webp was not modified
+2024-08-07 01:00:31.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/7.webp - 304 null image/webp 39.3527ms
+2024-08-07 01:00:31.958 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/6.webp - 304 null image/webp 75.6483ms
+2024-08-07 01:00:31.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/8.webp - 304 null image/webp 80.4339ms
+2024-08-07 01:00:31.934 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/1.webp - 304 null image/webp 103.9522ms
+2024-08-07 01:00:31.944 +03:00 [INF] The file /Uploads/Product-Images/2.webp was not modified
+2024-08-07 01:00:31.948 +03:00 [INF] The file /Uploads/Product-Images/5.webp was not modified
+2024-08-07 01:00:32.030 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-07 01:00:32.030 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-07 01:00:32.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/2.webp - 304 null image/webp 198.8338ms
+2024-08-07 01:00:32.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Uploads/Product-Images/5.webp - 304 null image/webp 150.5843ms
+2024-08-07 01:00:32.048 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 17.5291ms
+2024-08-07 01:00:32.048 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 17.659ms
+2024-08-07 01:00:32.086 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-07 01:00:32.076 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - null null
+2024-08-07 01:00:32.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.7722ms
+2024-08-07 01:00:32.085 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-07 01:00:32.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - null null
+2024-08-07 01:00:32.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map - 404 0 null 19.7416ms
+2024-08-07 01:00:32.100 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map - 404 0 null 24.2679ms
+2024-08-07 01:00:32.104 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Flowbite/Style/Script/flowbite.min.js.map, Response status code: 404
+2024-08-07 01:00:32.107 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Swiperslide/Style/Javascript/swiper-bundle.min.js.map, Response status code: 404
+2024-08-07 01:00:32.378 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-07 01:00:32.382 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 4.1842ms
+2024-08-07 01:00:32.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - null null
+2024-08-07 01:00:32.393 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-07 01:00:32.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map - 404 0 null 5.265ms
+2024-08-07 01:00:32.400 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7239/Lib/Tinyslider/Style/sourcemaps/tiny-slider.js.map, Response status code: 404
+2024-08-07 01:00:32.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7239/favicon.ico - null null
+2024-08-07 01:00:32.440 +03:00 [INF] The file /favicon.ico was not modified
+2024-08-07 01:00:32.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7239/favicon.ico - 304 null image/x-icon 5.4913ms

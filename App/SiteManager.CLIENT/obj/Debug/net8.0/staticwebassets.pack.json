@@ -1,0 +1,233 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SiteManager.CLIENT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SiteManager.CLIENT.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Flowbite\\Style\\Css\\flowbite.min.css",
+      "PackagePath": "staticwebassets\\Lib\\Flowbite\\Style\\Css\\flowbite.min.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Flowbite\\Style\\Script\\flowbite.min.js",
+      "PackagePath": "staticwebassets\\Lib\\Flowbite\\Style\\Script\\flowbite.min.js"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Black.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Black.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Bold.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Heavy.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Heavy.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Light.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Medium.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Regular.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Semibold.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Semibold.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Thin.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro-Text-Ultralight.otf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro-Text-Ultralight.otf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\SF-Pro\\SF-Pro.ttf",
+      "PackagePath": "staticwebassets\\Lib\\SF-Pro\\SF-Pro.ttf"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Swiperslide\\Style\\Css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\Lib\\Swiperslide\\Style\\Css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Swiperslide\\Style\\Javascript\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\Lib\\Swiperslide\\Style\\Javascript\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Tailwind\\Css\\Tailwind.min.css",
+      "PackagePath": "staticwebassets\\Lib\\Tailwind\\Css\\Tailwind.min.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Tinyslider\\Style\\Css\\Tinyslider.min.css",
+      "PackagePath": "staticwebassets\\Lib\\Tinyslider\\Style\\Css\\Tinyslider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Lib\\Tinyslider\\Style\\Javascript\\Javascript.min.js",
+      "PackagePath": "staticwebassets\\Lib\\Tinyslider\\Style\\Javascript\\Javascript.min.js"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Style\\Css\\Font.css",
+      "PackagePath": "staticwebassets\\Style\\Css\\Font.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Style\\Css\\Style.css",
+      "PackagePath": "staticwebassets\\Style\\Css\\Style.css"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Style\\Script\\javascript.js",
+      "PackagePath": "staticwebassets\\Style\\Script\\javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Bag.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Bag.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Bookmark.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Bookmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Envelope.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Envelope.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Facebook.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Google.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Google.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Lock.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Search.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Search.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Sortby.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Sortby.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\Tick.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\Tick.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\User.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\User.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\User_2.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\User_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\eye.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\eye.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Icons\\eye_1.svg",
+      "PackagePath": "staticwebassets\\Uploads\\Icons\\eye_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Page-Images\\Auth-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\Page-Images\\Auth-1.png"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Page-Images\\Auth-2.png",
+      "PackagePath": "staticwebassets\\Uploads\\Page-Images\\Auth-2.png"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Page-Images\\Auth-3.png",
+      "PackagePath": "staticwebassets\\Uploads\\Page-Images\\Auth-3.png"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Page-Images\\Auth-4.png",
+      "PackagePath": "staticwebassets\\Uploads\\Page-Images\\Auth-4.png"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Page-Images\\ProductsImage.png",
+      "PackagePath": "staticwebassets\\Uploads\\Page-Images\\ProductsImage.png"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\1.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\2.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\3.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\4.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\5.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\5.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\6.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\6.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\7.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\7.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Product-Images\\8.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Product-Images\\8.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\ProductSlides\\1.avif",
+      "PackagePath": "staticwebassets\\Uploads\\ProductSlides\\1.avif"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Slides\\yeni-broggan-koleksiyonu-tr.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Slides\\yeni-broggan-koleksiyonu-tr.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Slides\\yeni-ikeada-yeni-ne-var-temmuz-tr.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Slides\\yeni-ikeada-yeni-ne-var-temmuz-tr.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Slides\\yeni-nytillverkad-koleksiyonu-tr.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Slides\\yeni-nytillverkad-koleksiyonu-tr.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\Uploads\\Slides\\yeni-yaz-indirimi-tr.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Slides\\yeni-yaz-indirimi-tr.webp"
+    },
+    {
+      "Id": "C:\\Users\\berka\\Desktop\\App\\SiteManager.CLIENT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SiteManager.CLIENT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SiteManager.CLIENT.props",
+      "PackagePath": "build\\SiteManager.CLIENT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SiteManager.CLIENT.props",
+      "PackagePath": "buildMultiTargeting\\SiteManager.CLIENT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SiteManager.CLIENT.props",
+      "PackagePath": "buildTransitive\\SiteManager.CLIENT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

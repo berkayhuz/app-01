@@ -1,0 +1,112 @@
+﻿@{
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    var area = ViewContext.RouteData.Values["area"]?.ToString();
+    var excludedControllers = new List<string> { "User" };
+    var excludedAreas = new List<string> { "Authentication" };
+}
+@if (!excludedControllers.Contains(controller) && !excludedAreas.Contains(area))
+{
+    <footer>
+        <div class="max-w-screen-xl mx-auto grid grid-cols-1 gap-6 px-8 pb-2 pt-12">
+	        @await Component.InvokeAsync("FooterListCategory")
+        </div>
+    </footer>
+}
+else
+{
+
+}
+
+<footer style="background-color: #F7F7F7;">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 gap-6 px-8 pb-2 pt-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-0 gap-6 border-b pb-8 border-gray-200 lg:flex lg:justify-between">
+            <div class="flex flex-col gap-2 text-left">
+                <div class="">
+                    <h3 class="font-bold text-sm">Hakkımızda</h3>
+                </div>
+                <div class="grid grid-cols-1 gap-1">
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Biz Kimiz</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Kariyer</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">İletişim</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">eComyol'da Satış Yap</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 text-left">
+                <div class="">
+                    <h3 class="font-bold text-sm">Kampanyalar</h3>
+                </div>
+                <div class="grid grid-cols-1 gap-1">
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Aktif Kampanyalar</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Hediye Fikirleri</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Fırsatlarımız</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 text-left">
+                <div class="">
+                    <h3 class="font-bold text-sm">Yardım</h3>
+                </div>
+                <div class="grid grid-cols-1 gap-1">
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Yardım Merkezi</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Sıkça Sorulan Sorular</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Canlı Yardım</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Teslimat ve İade</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">İşlem Rehberi</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Sorun Bildir</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 text-left">
+                <div class="">
+                    <h3 class="font-bold text-sm">Politikalar</h3>
+                </div>
+                <div class="grid grid-cols-1 gap-1">
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Bilgi Güvenliği Politikası</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Kalite Politikası</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Önemli Bilgilendirme</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">İnternet Sitesi Gizlilik Politikası</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Kişisel Verilerin Korunması</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Çerez Politikası</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Kullanım Koşulları</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 text-left">
+                <div class="">
+                    <h3 class="font-bold text-sm">Blog</h3>
+                </div>
+                <div class="grid grid-cols-1 gap-1">
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Ana sayfa</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Ev & Yaşam</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Sağlık</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Günlük</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Kategoriler</a>
+                    <a class="text-gray-800 text-sm font-normal tracking-normal hover:underline hover:text-gray-900" href="#">Tüm gönderiler</a>
+                </div>
+            </div>
+        </div>
+        <div class="md:flex md:justify-between md:flex-row flex flex-col items-center">
+            <div class="flex flex-col items-center md:grid md:grid-cols-2 gap-2 text-xs">
+                <div>
+                    <span class="text-gray-500">
+                        <a asp-action="Index" asp-controller="Home" asp-area="" class="text-gray-900">eCommerce™</a>
+                        © 2024 eCommerce Türkiye
+                    </span>
+                </div>
+                <div class="text-gray-600">
+                    <a class="hover:underline hover:text-gray-800" href="#">Koşullar</a>
+                    <a class="hover:underline hover:text-gray-800" href="#">Site haritası</a>
+                    <a class="hover:underline hover:text-gray-800" href="#">Tercihler</a>
+                </div>
+            </div>
+            <div class="flex md:justify-between md:gap-4 md:mt-0 gap-2 mt-4">
+                <a class="inline-flex gap-1" href="#">
+                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                </a>
+                <a class="inline-flex gap-1" href="#">
+                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01" /></g></svg>
+                </a>
+                <a class="inline-flex gap-1" href="#">
+                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2" /></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

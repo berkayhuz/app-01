@@ -1,0 +1,135 @@
+﻿@{
+	ViewData["Title"] = "Giriş yap";
+	Layout = "_AuthenticationLayout";
+}
+
+<div class="grid grid-cols-1 md:grid-cols-2 items-center">
+	<section class="order-2 md:order-none">
+		<div class="flex flex-col items-center justify-center px-4 mx-auto md:h-screen lg:py-0">
+			<div class="w-full bg-white md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800">
+				<div class="py-6 space-y-4 md:space-y-6 sm:p-8">
+					<div class="flex flex-col gap-4">
+						<h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+							Hoşgeldiniz 👋
+						</h1>
+						<span class="text-sm text-gray-500 mb-3">
+							Today is a new day. It's your day. You
+							shape it. Sign in to start managing your projects.
+						</span>
+					</div>
+					<form class="space-y-4 md:space-y-6" asp-action="Login" method="post">
+						@Html.AntiForgeryToken()
+						<div>
+							<label for="email"
+							       class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">Email</label>
+							<input type="email" id="email" name="email"
+							       class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							       placeholder="name@company.com" required="">
+						</div>
+						<div>
+							<label for="password"
+							       class="block mb-2 text-xs font-medium text-gray-900 dark:text-white">Parola</label>
+							<input type="password" id="password" name="password" placeholder="••••••••"
+							       class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							       required="">
+						</div>
+						<div class="flex items-center justify-between">
+							<div class="flex items-start">
+								<div class="flex items-center h-5">
+									<input id="remember" aria-describedby="remember" type="checkbox"
+									       class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+									       required="">
+								</div>
+								<div class="ml-3 text-sm">
+									<label for="remember"
+									       class="text-gray-500 dark:text-gray-300 text-xs">Beni hatırla</label>
+								</div>
+							</div>
+							<a asp-action="ForgotPassword" asp-controller="ForgotPassword" asp-area="Authentication"
+							   class="text-xs font-medium text-primary-600 hover:underline dark:text-primary-500">Şifremi unuttum?</a>
+						</div>
+						<button type="submit"
+						        class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-btn">
+							Giriş
+							yap
+						</button>
+						<div class="flex justify-between gap-2 items-center">
+							<div class="bg-border-primary border-b w-full" style="height: 1px;"></div>
+							<span class="text-sm text-gray-500">veya</span>
+							<div class="bg-border-primary border-b w-full" style="height: 1px;"></div>
+						</div>
+						<button type="button"
+						        class="w-full text-gray-900 bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-gray-100">
+							<div class="items-center flex text-center justify-center gap-2">
+								<svg width="29" height="29" viewBox="0 0 29 29" fill="none"
+								     xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_202_52)">
+										<path d="M28.2268 14.8225C28.2268 13.8708 28.1496 12.914 27.985 11.9777H14.7798V17.3689H22.3418C22.028 19.1076 21.0197 20.6457 19.5433 21.6231V25.1212H24.0548C26.7041 22.6828 28.2268 19.0819 28.2268 14.8225Z"
+										      fill="#4285F4"/>
+										<path d="M14.7798 28.5009C18.5557 28.5009 21.7399 27.2612 24.06 25.1212L19.5485 21.6231C18.2933 22.4771 16.6729 22.9606 14.7849 22.9606C11.1325 22.9606 8.03572 20.4965 6.92456 17.1837H2.26904V20.7898C4.64567 25.5173 9.48639 28.5009 14.7798 28.5009Z"
+										      fill="#34A853"/>
+										<path d="M6.91941 17.1837C6.33297 15.4449 6.33297 13.5621 6.91941 11.8234V8.21729H2.26904C0.283368 12.1732 0.283368 16.8339 2.26904 20.7898L6.91941 17.1837Z"
+										      fill="#FBBC04"/>
+										<path d="M14.7798 6.04127C16.7757 6.01041 18.7048 6.76146 20.1504 8.14012L24.1474 4.14305C21.6165 1.76642 18.2573 0.45979 14.7798 0.500943C9.48638 0.500943 4.64567 3.48459 2.26904 8.21728L6.91942 11.8234C8.02542 8.50536 11.1274 6.04127 14.7798 6.04127Z"
+										      fill="#EA4335"/>
+									</g>
+									<defs>
+										<clipPath id="clip0_202_52">
+											<rect width="28" height="28" fill="white"
+											      transform="translate(0.5 0.5)"/>
+										</clipPath>
+									</defs>
+								</svg>
+
+								Google ile giriş yap
+							</div>
+						</button>
+						<button type="button"
+						        class="w-full text-gray-900 bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-gray-100">
+							<div class="items-center flex text-center justify-center gap-2">
+								<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_202_64)">
+										<path d="M28.5 14.5C28.5 6.76801 22.232 0.5 14.5 0.5C6.76801 0.5 0.5 6.76801 0.5 14.5C0.5 21.4877 5.61957 27.2796 12.3125 28.3299V18.5469H8.75781V14.5H12.3125V11.4156C12.3125 7.90687 14.4027 5.96875 17.6005 5.96875C19.1318 5.96875 20.7344 6.24219 20.7344 6.24219V9.6875H18.9691C17.23 9.6875 16.6875 10.7668 16.6875 11.875V14.5H20.5703L19.9496 18.5469H16.6875V28.3299C23.3804 27.2796 28.5 21.4877 28.5 14.5Z" fill="#1877F2"/>
+										<path d="M19.9496 18.5469L20.5703 14.5H16.6875V11.875C16.6875 10.7679 17.23 9.6875 18.9691 9.6875H20.7344V6.24219C20.7344 6.24219 19.1323 5.96875 17.6005 5.96875C14.4027 5.96875 12.3125 7.90688 12.3125 11.4156V14.5H8.75781V18.5469H12.3125V28.3299C13.762 28.5567 15.238 28.5567 16.6875 28.3299V18.5469H19.9496Z" fill="white"/>
+									</g>
+									<defs>
+										<clipPath id="clip0_202_64">
+											<rect width="28" height="28" fill="white" transform="translate(0.5 0.5)"/>
+										</clipPath>
+									</defs>
+								</svg>
+
+
+								Facebook ile giriş yap
+							</div>
+						</button>
+						<p class="text-sm text-center font-light text-gray-500 dark:text-gray-400">
+							Henüz hesabın yok mu?
+							<a asp-area="Authentication" asp-controller="Register" asp-action="Register"
+							   class="font-medium text-primary-600 hover:underline dark:text-primary-500">Üye ol</a>
+						</p>
+
+					</form>
+					@if (ViewBag.Message != null)
+					{
+						<div class="text-white text-sm bg-red-500 rounded-lg px-4 py-1.5">
+							<span>@ViewBag.Message</span>
+						</div>
+					}
+					@if (!ViewData.ModelState.IsValid)
+					{
+						<div class="text-white text-sm bg-red-500 rounded-lg px-4 py-1.5">
+							@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+							{
+								<span>@error.ErrorMessage</span>
+							}
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="order-1 flex flex-col items-center justify-center px-4 mx-auto md:h-screen lg:py-0 h-36 md:h-full">
+		<img src="~/Uploads/Page-Images/Auth-1.png" alt="">
+	</div>
+</div>
